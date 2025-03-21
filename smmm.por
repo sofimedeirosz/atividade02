@@ -1,15 +1,19 @@
 programa {
   funcao inicio() {
-  
-    programa {
-  funcao inicio() {
-    real n1, n2, resultado
-    escreva ("digite um numero:")
-    leia (n1)
-    escreva ("escreva outro numero: ")
-    leia (n2)
-    resultado = n1/n2
-    escreva ("seu resultado é:"+resultado+"")
+    real num1, num2, soma, subtracao
+
+    escreva(" 1° número: ")
+    leia(num1)
+    escreva(" 2° Número: ")
+    leia(num2)
+
+    soma = num1 + num2
+    subtracao = num1 - num2
+
+    escreva("\nSOMA: \n")
+    escreva(num1, " + ", num2, " = ", soma)
+
+    escreva("\nSUBTRAÇÃO: \n")
+    escreva(num1, " - ", num2, " = ", subtracao)  
   }
 }
-
